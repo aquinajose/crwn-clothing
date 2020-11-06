@@ -2,8 +2,6 @@ import React from 'react';
 import {withRouter,Link} from 'react-router-dom';
 import './menu-item.styles.scss';
 const MenuItem =(props)=>{
-    console.log(props.history);
-    console.log(props.match)
     return (
     
     <div className={`${props.size } menu-item`}>
